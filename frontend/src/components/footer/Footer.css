@@ -1,0 +1,91 @@
+.footer {
+  background-color: black;
+  padding: 2em 0;
+  text-align: center;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo h1 {
+  font-size: 1.5em;
+  color: #f1e7e7;
+}
+
+.footer-social a {
+  color: #f1e7e7;
+  margin: 0 0.5em;
+  font-size: 1.2em;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 1em;
+}
+
+.footer-column h3 {
+  font-size: 1.2em;
+  color: #f1e7e7;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 0.5em 0;
+}
+
+.footer-column ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+  color: #f1e7e7;
+}
+
+.footer-bottom {
+  margin-top: 1em;
+}
+
+.footer-bottom p {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      text-align: left;
+  }
+
+  .footer-links {
+      flex-direction: column;
+  }
+
+  .footer-column {
+      margin: 1em 0;
+  }
+}

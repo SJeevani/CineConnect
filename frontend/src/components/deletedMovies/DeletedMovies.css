@@ -1,0 +1,128 @@
+.movies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.movie-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: rgba(0, 0, 0, 1);
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.card-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-content {
+    position: relative;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+.card-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.card-content > * {
+    position: relative;
+    z-index: 2;
+}
+
+.card h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.card p {
+    margin: 0 0 5px;
+    font-size: 0.9em;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.pagination .MuiPagination-root {
+    color: #000;
+}
+
+.pagination .MuiPaginationItem-root {
+    color: #000 !important;
+    background-color: #fff !important;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination .MuiPaginationItem-root:hover {
+    background-color: #ccc !important;
+}
+
+.pagination .MuiPaginationItem-root.Mui-selected {
+    background-color: #111 !important;
+    color: #ccc !important;
+}
+
+.go-to-movies-link {
+    margin: 20px 0;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.go-to-movies-link:hover {
+    text-decoration: underline;
+}
+
+.no-movies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.no-movies-container p {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.no-movies-image {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+}

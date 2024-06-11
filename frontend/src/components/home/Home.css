@@ -1,0 +1,91 @@
+/* https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png */
+
+
+.home {
+    position: relative;
+    height: 90vh;
+  }
+  
+  .home:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0.6) 100%), url('https://wallpapergod.com/images/hd/movie-2560X1600-wallpaper-9pvmdtvz4cb0xl37.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+  }
+  
+  .home-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .home-content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    letter-spacing: 0.05em;
+    color: red;
+    text-shadow: 2px 2px rgba(255, 0, 0, 0.361);
+  }
+  
+  .home-content p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button {
+    height: 50px;
+    margin: 5px;
+    width: 120px;
+    text-decoration: none;
+    font-weight: 600;
+    background: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid #404c5d 1px;
+    font-size: 18px;
+    color: white;
+    transition: 500ms;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #2e2d2d, #212121);
+    box-shadow: -1px -5px 15px #522422a7, 3px 3px 10px #5224228c, inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+  }
+  
+  .button:hover {
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    transition: 500ms;
+    font-weight: 700;
+  }
+  
+  .button:active {
+    box-shadow: 1px 1px 13px #20232e, -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    transition: 100ms;
+  }
+  

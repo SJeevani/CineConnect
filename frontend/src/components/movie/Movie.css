@@ -1,0 +1,181 @@
+.movie-details {
+    color: #fff;
+    background-color: #000;
+}
+
+.movie-header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.movie-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.movie-poster {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.movie-info {
+    flex: 1;
+}
+
+.movie-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.movie-info .tagline {
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+.movie-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.movie-meta span {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.movie-overview {
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.movie-body {
+    display: flex;
+    padding: 20px;
+    background: #111;
+}
+
+.movie-comments {
+    flex: 1;
+    margin-right: 20px;
+    background-color:#222;
+}
+
+.movie-comments h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.movie-comments {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+.comment{
+    background:#111;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+.movie-comments .comment p {
+    margin: 0;
+    color: #ccc;
+}
+
+.movie-comments button {
+    margin-top: 10px;
+}
+
+.movie-info-right {
+    flex: 1;
+    background-color: #222;
+}
+
+.movie-info-right h3 {
+    color: #fff;
+}
+
+.movie-genres, .movie-budget, .movie-revenue, .movie-keywords, .movie-homepage {
+    margin-bottom: 15px;
+}
+
+.movie-genres .genres, .movie-keywords .keywords {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.genre, .keyword {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.movie-homepage a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.movie-homepage a:hover {
+    text-decoration: underline;
+}
+
+.MuiDialog-paper {
+    background-color: #333 !important;
+    color: #fff;
+}
+
+.MuiDialogTitle-root, .MuiDialogContent-root, .MuiDialogActions-root {
+    color: #fff;
+}
+
+.MuiButton-textPrimary {
+    color: #1e90ff !important;
+}
+
+.MuiInputBase-root, .MuiInputLabel-root {
+    color: #fff !important;
+}
+
+.admin-controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.admin-controls button {
+    margin: 10px;
+}
+
+.favoriteicon{ 
+    background-color: #222 !important;
+}
+
+.custom-tooltip {
+    background-color: #333 !important;
+    color: white !important;
+    font-size: 0.95em !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.custom-arrow::before {
+    background-color: #333 !important;
+}

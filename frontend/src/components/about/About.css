@@ -1,0 +1,39 @@
+.about {
+    padding: 2em;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .about h2 {
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+  
+  .about section {
+    margin: 1.5em 0;
+  }
+  
+  .about h3 {
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 0.5em;
+  }
+  
+  .about p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 0;
+  }
+  
+  .about ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about ul li {
+    margin: 0.5em 0;
+    font-size: 1em;
+  }
+  
